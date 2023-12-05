@@ -1,0 +1,46 @@
+body, html { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    user-select: none;
+}
+:root {
+    --jeopardy-blue: #060CE9;
+    --font-color-main: #fff;
+}
+.card {
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    text-transform: uppercase;    
+    perspective: 1000px;
+}
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    background: var(--jeopardy-blue);
+    color: var(--font-color-main);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-front, .card-back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-back {
+    transform: rotateY(180deg);
+}
+.card:hover .card-container {
+    transform: rotateY(180deg);
+}
