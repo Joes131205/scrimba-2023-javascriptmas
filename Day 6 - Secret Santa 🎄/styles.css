@@ -1,0 +1,77 @@
+/* I have no design skills */
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 50px;
+    user-select: none;
+}
+
+h1 {
+    color: #e44d26;
+    font-size:70px;
+}
+
+input {
+    font-family: 'Karla', sans-serif;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    border:2px solid;
+}
+
+button {
+    transition: 0.3s;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e44d26;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+li:hover {
+    background-color: #c04126;
+}
+
+#pairInput {
+    font-style: italic;
+    color: #e44d26;
+}
+
+#shuffledPairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#deleteButton {
+    transition: 0.3s;
+    background: #ff0000;
+}
+#deleteButton:hover {
+    transition: 0.3s;
+    background: #db0000;
+}
