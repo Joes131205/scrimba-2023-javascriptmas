@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-align: center;
+}
+
+h2 {
+    color: white;    
+}
+
+body {
+    background-color: #0F0F0F;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    color: #DEEAEE;
+    text-align: center;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+#player {
+    background-color: #DEEAEE;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background-color: #BDD59B;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.active {
+    transition: 0.2s;
+    background-color: #87fff1;
+    transform: rotate(2deg) scale(1.03);
+}
+
+button:hover {
+    background-color: #FF9492;
+    cursor: pointer;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+#custom {
+    background-color: #BDD59B;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    transition: 0.2s;
+}
+
+#custom > input {
+    width: 15rem;
+    background: #0F0F0F;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#custom:hover {
+    background-color: #FF9492;
+    cursor: pointer;
+}
