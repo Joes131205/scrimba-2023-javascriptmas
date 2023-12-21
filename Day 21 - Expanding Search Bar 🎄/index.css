@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --search-border: #bbb;
+    --search-focus-border: #3a71ca;
+}
+
+.container {
+    padding: 1rem;
+}
+
+input {
+    width: 33%;    
+    transition: 0.5s;
+    border-color: var(--search-border);
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+input:focus {
+    width: 100%;
+    border-color: var(--search-focus-border);
+    transition: 0.3s;
+    outline: transparent;
+}
+
+input:focus::placeholder {
+    color: white;
+    transition: 0.2s;
+}
