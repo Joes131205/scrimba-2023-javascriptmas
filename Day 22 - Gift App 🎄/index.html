@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Gift App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="logged-in-view">
+            <div class="container">
+                <button id="sign-out-btn")>Sign Out</button>
+                <p id="current-email"> Email : -</p>
+                <img src="icon.png">
+                <h1>Gift App</h1>
+                <div class="input-fields">
+                    <input type="text" id="input-field" placeholder="Frode">
+                    <button id="add-button">→</button>
+                </div>
+                <ul id="people-list">
+                </ul>
+            </div>
+        </div>
+        <div id="logged-out-view">
+            <div class="container">
+                <img src="icon.png">
+                <h1 class="app-title">Gift App</h1>
+                <button id="sign-in-google">Sign in with Google</button>
+                <hr>
+                <div class="auth-form">
+                    <input id="email-input" type="email" placeholder="Email">
+                    <input id="password-input" type="password" placeholder="Password">
+                    
+                    <button id="sign-in-btn" class="primary-btn">Sign in</button>
+                    <br>
+                    <button id="create-account-btn" class="secondary-btn">Create Account</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
