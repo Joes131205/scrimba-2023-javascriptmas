@@ -27,7 +27,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: "AIzaSyDlzo6f3_1MsLEo-D1-n_IY0-j_9axmY7I",
   authDomain: "gift-app-javascriptmas.firebaseapp.com",
   databaseURL:
     "https://gift-app-javascriptmas-default-rtdb.asia-southeast1.firebasedatabase.app",
