@@ -42,6 +42,6 @@ This is a list of all of the my attempt of completing all of the Javascriptmas C
 
 1. A lot of CSS concept that I don't know
 2. How to use OpenAI API and Hugging Face LLM
-3. JS Concepts
+3. Refreshed alot of JS Concepts
 4. Little bit of design choices
 
