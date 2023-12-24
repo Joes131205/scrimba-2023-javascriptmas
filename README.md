@@ -2,7 +2,7 @@
 # 2023 Javascriptmas
 
 ## Description
-This is a list of all of the completed Javascriptmas Challenge by @scrimba
+This is a list of all of the my attempt of completing all of the Javascriptmas Challenge by @scrimba
 
 
 [Scrimba's 2023 Javascriptmas Link](https://scrimba.com/learn/javascriptmas/)
