@@ -38,10 +38,30 @@ This is a list of all of the my attempt of completing all of the Javascriptmas C
 | Day 24 | [Christmas Tree Lights](https://github.com/Joes131205/scrimba-javascriptmas/tree/main/Day%2024%20-%20Christmas%20Tree%20Lights%20%F0%9F%8E%84)
 
 ##
-## What I learned while doing this challenge?
+## What I got while doing this challenge?
 
-1. A lot of CSS concept that I don't know
-2. How to use OpenAI API and Hugging Face LLM
-3. Refreshed alot of JS Concepts
-4. Little bit of design choices
+1. Refreshed about Date() object
+2. Learnt about border-image-source property and other
+3. Refreshed about modulus
+4. How to use OpenAI API (Text Generation), get familiar with Hugging Face
+5. Card Flipping Mechanic
+6. Randomizing Array
+7. Refreshed about DOM Manipulation
+8. How to make Progress Bar
+9. How to use OpenAI API (Image Generation)
+10. How to use Youtube Embed API
+11. Refreshed some CSS tecnhique
+12. Refreshed about Array.sort() method
+13. Refeshed about if...else... method
+14. Refeshed about String.repeat() method
+15. Refreshed some CSS technique
+16. Refreshed about Array.filter(), and object method
+17. Learnt about ::after pseudo element
+18. How to use OpenAI API (GPT-4 Vision)
+19. Improved Debugging Skills
+20. Learnt about recursive
+21. Refreshed some CSS technique
+22. Refreshed about Firebase Authentication, Database
+23. Learnt in depth about checkbox label and how to manipulate them to make the toggle switch
+24. Refreshed about setTimeout and setInterval functions
 
