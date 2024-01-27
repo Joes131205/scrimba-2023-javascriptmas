@@ -38,7 +38,7 @@ This is a list of all of the my attempt of completing all of the Javascriptmas C
 | Day 24 | [Christmas Tree Lights](https://github.com/Joes131205/scrimba-javascriptmas/tree/main/Day%2024%20-%20Christmas%20Tree%20Lights%20%F0%9F%8E%84)
 
 ##
-## What I got while doing this challenge?
+## What I learned while doing this challenge?
 
 1. Refreshed about Date() object
 2. Learnt about border-image-source property and other
